@@ -33,4 +33,13 @@ production -> main () (support )
 UAT(USER ACCEPTANCE TEST) -> uat (qa)
 develop -> develop () (qa, dev)
 
+-> git flow 
+
+inorder to see how many you have in your local system.
 git branch
+
+create a branch name with uat
+git checkout -b uat
+
+
+
