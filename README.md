@@ -48,8 +48,12 @@ create a branch name with uat
 create a branch name with develop
 `git checkout -b develop`
 
+git checkout uat
+
+uat 
+
 it will take the changes from your source branch into target branch 
-git merge
+`git merge develop`
 
 
 
