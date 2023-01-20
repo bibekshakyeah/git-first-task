@@ -48,6 +48,8 @@ create a branch name with uat
 create a branch name with develop
 `git checkout -b develop`
 
+git checkout -b feature-new-thing
+
 git checkout uat
 
 uat 
