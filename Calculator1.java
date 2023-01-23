@@ -6,4 +6,10 @@ Class Calculator1{
 		System.out.println("This is Calculator2 feature");
 		
 	}
+
+
+  public int substract(int x,int y){
+    return x-y;
+  }
+  
 }
