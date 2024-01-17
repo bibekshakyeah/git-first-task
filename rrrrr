@@ -1,0 +1,7 @@
+String secretJson = getSecret(secretName);
+            ObjectMapper objectMapper = new ObjectMapper();
+            Map<String, String> secretMap = objectMapper.readValue(secretJson, new TypeReference<Map<String, String>>() {});
+
+            String url = secretMap.get("url");
+            String username = secretMap.get("username");
+            String password = secretMap.get("password");
